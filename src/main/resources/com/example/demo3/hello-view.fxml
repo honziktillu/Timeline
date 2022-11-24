@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.HelloController">
+   <children>
+      <Button layoutX="255.0" layoutY="248.0" mnemonicParsing="false" onAction="#clickEvent" text="Cookie clicker" />
+      <Label fx:id="counter" layoutX="286.0" layoutY="108.0" text="Label" />
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="150.0" layoutY="187.0" radius="52.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="107.0" layoutY="281.0" mnemonicParsing="false" onAction="#startAnimation" text="Change color" />
+   </children>
+</AnchorPane>
